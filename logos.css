@@ -1,0 +1,137 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 5em;
+}
+.hero-wrapper {
+    background-image: url("hero banner.jpg") ;
+    background-size: contain;
+    align-items: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 15em 0;
+}
+
+.hero-overlay h1 {
+  font-size: 32px;
+  
+}
+
+.hero-overlay p {
+ font-size:20px ;
+ margin-left: 20em;
+ width:50%;
+   
+}
+
+.hero-wrapper button{
+    background-color: chocolate;
+    cursor:pointer;
+    padding: 12px 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 130px;
+}
+
+.section {
+    text-align: center;
+    margin: 20px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.service-boxes h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.service-boxes p{
+    font-size: 20px;
+    width:90%;
+}
+
+.service-box-market{
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 5PX 5PX hsla(0, 1%, 17%, 0.411);
+    justify-content: center;
+    padding: 0px;
+    text-transform: capitalize;
+    border-radius: 20px;
+ 
+} 
+.service-box-supplier{
+     text-align: center;
+    height: 250px;
+    width: 400px;
+    box-shadow:  0PX 5px  5PX hsla(0, 1%, 17%, 0.411);
+    justify-content: center;
+    padding: 0px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin:0 0 20px 70px;
+}
+.service-box-Registrations{
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 5px 5px hsla(0, 1%, 17%, 0.411);
+    justify-content: center;
+    padding: 0px;
+    text-transform: capitalize;
+    border-radius: 20px;
+margin:40PX 0 20px ;
+}
+.service-box-post{
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 5px 5px hsla(0, 1%, 17%, 0.411);
+    justify-content: center;
+    padding: 0px;
+    text-transform: capitalize;
+    border-radius: 20px;
+margin:40PX 0 20px 70px;
+}
+
+.service-boxes{
+    display:flex;
+    justify-content: center;
+   
+}
+.capital-text {
+ background-image: url("vector image.svg");
+    background-repeat: no-repeat;
+    background-position: right center; /* Place image to the right */
+    background-size: contain; /* Adjust image size properly */
+
+    padding: 50px;
+    height: 400px; /* Equal height */
+    width: 100%;   /* Full width container */
+ 
+    color: chocolate;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 50px;
+    padding-left: 3em;
+}
+
+
+
+.capital-text p {
+    color: #000;
+    font-size: 40px; 
+margin:0px;
+}
